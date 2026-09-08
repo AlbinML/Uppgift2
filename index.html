@@ -10,7 +10,20 @@
    main{
     padding: 0.5rem 2rem;
    }
-
+   
+   footer{
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.5rem 2rem;
+    border-radius: 10ex;
+    font-size: large;
+    border: 1px solid blue;
+   }
    
    span{
     font-weight: bold;
@@ -56,6 +69,15 @@
         display: inline-flex;
         padding: 1rem;
     }
+    
+    .css-lista {
+            background-color: lightskyblue;
+            border: 1px solid rgb(0, 0, 255);
+            border-radius: 1rem;
+            padding: 0.1rem 0.5rem;
+            width: fit-content;
+    }
+
 </style>
 
 </head>
@@ -73,17 +95,57 @@
     </header>
 
     <main>
-        <h1>Print("Hello World")</h1>
-        <p class="box">Print("Hello World")</p>
-        <h2>Print("Hello World")</h2>
-        <p class="box">Print("Hello World")</p>
-        <h3>Print("Hello World")</h3>
-        <p class="box">Print("Hello World")</p>
-        <h4>Print("Hello World")</h4>
-        <p class="box">Print("Hello World")</p>
+        <section>
+            <h1>Print("Hello World")</h1>
+            <p class="box">Print("Hello World")</p>
+    
+            <h2>Print("Hello World")</h2>
+            <p class="box">Print("Hello World")</p>
+    
+            <h3>Print("Hello World")</h3>
+            <p class="box">Print("Hello World")</p>
+    
+            <h4>Print("Hello World")</h4>
+            <p class="box">Print("Hello World")</p>
+        </section>
+
+        <section>
+            <h2 class="css-rubrik">CSS-stilar jag har lärt mig</h2>
+
+            <div class="css-lista">
+                <ul>
+                    <li class="box">Display</li>
+                    <li class="box">Font-family</li>
+                    <li class="box">Font-size</li>
+                    <li class="box">Font-weight</li>
+                    <li class="box">Color</li>
+                    <li class="box">Background-color</li>
+                    <li class="box">Padding</li>
+                    <li class="box">Margin</li>
+                    <li class="box">Border</li>
+                    <li class="box">Border-radius</li>
+                    <li class="box">Box-shadow</li>
+                    <li class="box">Gap</li>
+                    <li class="box">List-style</li>
+                    <li class="box">Text-align</li>
+                    <li class="box">Width</li>
+                    <li class="box">Min-height</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <footer>
+        <span>Uppgift 2 Webbutveckling</span> 
+       <nav>
+        <ul>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li>Gjord av Albin Maller Landelius</li>
+        </ul>
+       </nav>
     </footer>
     
 </body>
